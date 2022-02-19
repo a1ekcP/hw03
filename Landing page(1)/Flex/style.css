@@ -1,0 +1,116 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    background: rgba(28, 82, 221, 0.56);
+    width: 100%;
+    margin: 0;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 58px 45px 58px 103px;
+}
+.header__company-name{
+    background: url(img/icon.png) no-repeat left bottom;
+    padding-left: 52px;
+}
+.header__company-name a{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FAFAFA;
+}
+.header__nav ul{
+    display: flex;
+    align-items: center;
+}
+.header__nav ul li{
+    list-style: none;
+    margin-right: 60px;
+}
+.header__nav ul li:hover{
+    text-decoration: underline;
+}
+.header__nav ul li:last-child{
+    margin-right: 0;
+}
+.header__nav a{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #EBEBEB;
+}
+.home a{
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.nav__btn{
+    width: 164px;
+    height: 61px;
+    background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
+    border-radius: 13px;
+    border: none;
+    font-size: 24px;
+    line-height: 28px;
+    color: #E5E5E5;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    padding: 0 28px 338px 103px;
+}
+.page__join{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0 1 40%;
+    margin: 0 auto;
+}
+.join__title{
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+.join__subtitle{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #E5E5E5;
+    margin-bottom: 55px;
+}
+.join__btn{
+    width: 277px;
+    height: 85px;
+    background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
+    border-radius: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #E5E5E5;
+    font-family: Roboto;
+    cursor: pointer;
+}
+.page__img{
+    flex: 0 1 60%;
+    padding-bottom: 46%;
+    background: url("img/Working_process.png") no-repeat;
+}
