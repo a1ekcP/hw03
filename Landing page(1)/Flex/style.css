@@ -4,14 +4,12 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-a{
-    text-decoration: none;
-}
-.landing{
     background: rgba(28, 82, 221, 0.56);
     width: 100%;
     margin: 0;
+}
+a{
+    text-decoration: none;
 }
 .container{
     max-width: 1600px;
@@ -19,9 +17,9 @@ a{
 }
 .header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 58px 45px 58px 103px;
+    justify-content: space-between;
 }
 .header__company-name{
     background: url(img/icon.png) no-repeat left bottom;
@@ -33,9 +31,13 @@ a{
     line-height: 56px;
     color: #FAFAFA;
 }
+.header__nav{
+    display: flex;
+}
 .header__nav ul{
     display: flex;
     align-items: center;
+    margin-right: 39px;
 }
 .header__nav ul li{
     list-style: none;
@@ -52,12 +54,13 @@ a{
     font-size: 30px;
     line-height: 35px;
     color: #EBEBEB;
+    display: flex;
 }
 .home a{
     font-weight: 500;
     color: #FFFFFF;
 }
-.nav__btn{
+.header__btn{
     width: 164px;
     height: 61px;
     background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
