@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+.wrapper{
+    width: 1440px;
+    background-color: #FFF;
+    padding: 70px 190px 103px 190px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3{
+    font-size: inherit;
+    font-weight: normal;
+}

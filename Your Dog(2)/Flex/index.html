@@ -6,8 +6,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="header_logo">
+                    <img src="img/header_logo.png" alt="Logo">
+                </div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#">О клинике</a></li>
+                        <li><a href="#">Прайс - лист</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Личный кабинет</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="main">
+                <div class="main__about about">
+                    <div class="about__text">
+                        <h1>Your Dog</h1>
+                        <div class="about__subtitle">Добро пожаловать в новую клинику Your Dog 
+                        </div>
+                        <button class="about__btn btn">Записаться на прием</button>
+                    </div>
+                    <div class="about__img">
+                        <img src="img/1.png" alt="">
+                    </div>
+                </div>
+                <div class="main__vakcination vakcination">
+                    <div class="vakcination__title">
+                        Центр вакцинации и профилактической ветеринарии 
+                    </div>
+                    <div class="vakcination__block">
+                        <div class="vakcination__about">
+                            <p>
+                                Мы относимся к маленьким друзьям с заботой и вниманием. 
+                                Наша основная цель — сохранить здоровье вашего питомца на долгие годы. 
+                                При первом осмотре мы составим индивидуальную программу по кормлению, 
+                                физической активности, уходу, профобработкам, вакцинациям 
+                                и диспансеризациям для животного на ближайший срок 
+                                (до перехода питомца в следующую возрастную категорию)
+                            </p>
+                            <button class="vakcination__btn btn">Записаться на прием</button>
+                        </div>
+                        <div class="vakcination__img">
+                            <img src="img/2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="main__prices prices">
+                    <div class="prices__title">Цены</div>
+                    <div class="prices__block">
+                        <div class="prices__prices">
+                            <p>
+                                Прием терапевта в порядке очереди — 100$
+                                Прием хирурга — 100$
+                                Прием нефролога (первичный) в порядке очереди — 120$
+                                Прием кардиолога (первичный) — 120$
+                                Прием специалиста по поведению собак (зоопсихолог) — 150$
+                            </p>
+                            <button class="prices__btn btn"></button>
+                        </div>
+                        <div class="prices__img">
+                            <img src="img/3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="main__team team">
+                    <div class="team__member">
+                        <div class="member-img">
+                            <img src="img/4.png" alt="Photo">
+                        </div>
+                        <div class="member-text">
+                            <h2 class="name">Яковлева Антонина</h2>
+                            <h3 class="post"> Хирург</h3>
+                        </div>
+                    </div>
+                    <div class="team__2">
+                        <div class="member-img">
+                            <img src="img/5.png" alt="Photo">
+                        </div>
+                        <div class="member-text">
+                            <h2 class="name">Петрицкая Анна</h2>
+                            <h3 class="post">
+                                Специалист по поведению собак.
+                                Специализация: помощь с воспитанием и дрессировкой щенков и подростков, адаптации собаки в семью при переезде, смене образа жизни для любых возрастов, коррекция поведения собак основанная на современных знаниях о собаке как виде.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="team__3">
+                        <div class="member-img">
+                            <img src="img/6.png" alt="Photo">
+                        </div>
+                        <div class="member-text">
+                            <h2 class="name">Никонорова Татьяна</h2>
+                            <h3 class="post">Терапевт-нефролог</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__record">
+                    <button class="btn">Записаться на прием</button>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__license">
+                    <div class="footer__logo">
+                        <img src="img/footer_logo.png" alt="logo">
+                    </div>
+                    <div class="footer__text">
+                        <p>
+                            © 2021-2022. Центр вакцинации
+                            и профилактической 
+                            ветеринарии Your Dog                     
+                        </p>
+                        <p>Все права защищены</p>
+                    </div>
+                </div>
+                <div class="footer__contacts">
+                    <h2>Контакты</h2>
+                    <p><a href="#">hello@dog.gmail.com</a></p>
+                    <div class="footer__icons">
+                        <img src="icon/1.png" alt="Facebook">
+                        <img src="icon/2.png" alt="Youtube">
+                        <img src="icon/3.png" alt="Instagram">
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
