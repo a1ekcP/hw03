@@ -81,7 +81,7 @@ a{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex: 0 1 40%;
+    flex: 0 1 44%;
     margin: 0 auto;
 }
 .join__title{
@@ -112,7 +112,5 @@ a{
     cursor: pointer;
 }
 .page__img{
-    flex: 0 1 60%;
-    padding-bottom: 46%;
-    background: url("img/Working_process.png") no-repeat;
+    flex: 0 1 56%;
 }
