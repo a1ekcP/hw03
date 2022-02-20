@@ -20,7 +20,7 @@
                 <div class="header_logo">
                     <img src="img/header_logo.png" alt="Logo">
                 </div>
-                <nav class="navigation">
+                <nav class="header__navigation">
                     <ul>
                         <li><a href="#">О клинике</a></li>
                         <li><a href="#">Прайс - лист</a></li>
@@ -30,31 +30,29 @@
                 </nav>
             </header>
             <main class="main">
-                <div class="main__about about">
-                    <div class="about__text">
-                        <h1>Your Dog</h1>
-                        <div class="about__subtitle">Добро пожаловать в новую клинику Your Dog 
+                <div class="wellcome">
+                    <div class="wellcome__text">
+                        <h1 class="wellcome__title">Your Dog</h1>
+                        <div class="wellcome__subtitle">Добро пожаловать в новую клинику Your Dog 
                         </div>
-                        <button class="about__btn btn">Записаться на прием</button>
+                        <button class="wellcome__btn btn">Записаться на прием</button>
                     </div>
-                    <div class="about__img">
+                    <div class="wellcome__img">
                         <img src="img/1.png" alt="">
                     </div>
                 </div>
-                <div class="main__vakcination vakcination">
-                    <div class="vakcination__title">
+                <div class="vakcination">
+                    <div class="vakcination__title title">
                         Центр вакцинации и профилактической ветеринарии 
                     </div>
-                    <div class="vakcination__block">
+                    <div class="vakcination__body">
                         <div class="vakcination__about">
-                            <p>
                                 Мы относимся к маленьким друзьям с заботой и вниманием. 
                                 Наша основная цель — сохранить здоровье вашего питомца на долгие годы. 
                                 При первом осмотре мы составим индивидуальную программу по кормлению, 
                                 физической активности, уходу, профобработкам, вакцинациям 
                                 и диспансеризациям для животного на ближайший срок 
                                 (до перехода питомца в следующую возрастную категорию)
-                            </p>
                             <button class="vakcination__btn btn">Записаться на прием</button>
                         </div>
                         <div class="vakcination__img">
@@ -62,17 +60,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="main__prices prices">
-                    <div class="prices__title">Цены</div>
-                    <div class="prices__block">
+                <div class="prices">
+                    <div class="prices__title title">Цены</div>
+                    <div class="prices__body">
                         <div class="prices__prices">
-                            <p>
-                                Прием терапевта в порядке очереди — 100$
-                                Прием хирурга — 100$
-                                Прием нефролога (первичный) в порядке очереди — 120$
-                                Прием кардиолога (первичный) — 120$
-                                Прием специалиста по поведению собак (зоопсихолог) — 150$
-                            </p>
+                            <p>Прием терапевта в порядке очереди — 100$</p>
+                            <p>Прием хирурга — 100$</p>
+                            <p>Прием нефролога (первичный) в порядке очереди — 120$</p>
+                            <p>Прием кардиолога (первичный) — 120$</p>
+                            <p>Прием специалиста по поведению собак (зоопсихолог) — 150$</p>
                             <button class="prices__btn btn"></button>
                         </div>
                         <div class="prices__img">
@@ -80,40 +76,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="main__team team">
-                    <div class="team__member">
-                        <div class="member-img">
-                            <img src="img/4.png" alt="Photo">
+                <div class="team">
+                    <div class="team__title title">Наша команда</div>
+                    <div class="team__members">
+                        <div class="team__1">
+                            <div class="member-img">
+                                <img src="img/4.png" alt="Photo">
+                            </div>
+                                <h2 class="name">Яковлева Антонина</h2>
+                                <h3 class="post"> Хирург</h3>
                         </div>
-                        <div class="member-text">
-                            <h2 class="name">Яковлева Антонина</h2>
-                            <h3 class="post"> Хирург</h3>
+                        <div class="team__2">
+                                <div class="member-img">
+                                    <img src="img/5.png" alt="Photo">
+                                </div>
+                                    <h2 class="name">Петрицкая Анна</h2>
+                                    <h3 class="post">
+                                        Специалист по поведению собак.
+                                        Специализация: помощь с воспитанием и дрессировкой щенков и подростков, адаптации собаки в семью при переезде, смене образа жизни для любых возрастов, коррекция поведения собак основанная на современных знаниях о собаке как виде.
+                                    </h3>
                         </div>
-                    </div>
-                    <div class="team__2">
-                        <div class="member-img">
-                            <img src="img/5.png" alt="Photo">
-                        </div>
-                        <div class="member-text">
-                            <h2 class="name">Петрицкая Анна</h2>
-                            <h3 class="post">
-                                Специалист по поведению собак.
-                                Специализация: помощь с воспитанием и дрессировкой щенков и подростков, адаптации собаки в семью при переезде, смене образа жизни для любых возрастов, коррекция поведения собак основанная на современных знаниях о собаке как виде.
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="team__3">
-                        <div class="member-img">
-                            <img src="img/6.png" alt="Photo">
-                        </div>
-                        <div class="member-text">
-                            <h2 class="name">Никонорова Татьяна</h2>
-                            <h3 class="post">Терапевт-нефролог</h3>
+                        <div class="team__3">
+                                <div class="member-img">
+                                    <img src="img/6.png" alt="Photo">
+                                </div>
+                                    <h2 class="name">Никонорова Татьяна</h2>
+                                    <h3 class="post">Терапевт-нефролог</h3>
                         </div>
                     </div>
                 </div>
-                <div class="main__record">
-                    <button class="btn">Записаться на прием</button>
+                <div class="record">
+                    <button class="record__btn">Записаться на прием</button>
                 </div>
             </main>
             <footer class="footer">
