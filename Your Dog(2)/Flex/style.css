@@ -13,10 +13,73 @@ body{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 ul{
     list-style: none;
 }
 h1,h2,h3{
     font-size: inherit;
     font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.header__navigation{
+    display: flex;
+}
+.header__navigation a{
+    display: block;
+    margin-right: 75px;
+    font-family: Vollkorn;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.header__navigation a:last-child{
+    margin-right: 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer__license{
+    margin: 0 93px 0 121px;
+}
+.footer__contacts h2{
+    font-family: Vollkorn;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.footer__contacts>a{
+    display: block;
+    font-family: Montserrat Alternates;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #1E0202;
+    margin: 30px 0;
+}
+.footer__icons{
+    display: flex;
+}
+.footer__icons a{
+    margin-right: 16px;
+}
+.footer__icons a:last-child{
+    margin-right: 0;
 }
