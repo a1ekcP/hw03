@@ -1,5 +1,7 @@
-body{
+*{
     box-sizing: border-box;
+}
+body{
     margin: 0;
     padding: 0;
     background-color: gray;
@@ -18,10 +20,10 @@ a:hover{
 }
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
-h1,h2,h3{
-    font-size: inherit;
-    font-weight: normal;
+h1,h2,h3,p{
     margin: 0;
     padding: 0;
 }
@@ -29,6 +31,9 @@ h1,h2,h3{
     display: flex;
     flex-direction: column;
 }
+
+/*------------------------HEADER------------------*/
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -51,6 +56,32 @@ h1,h2,h3{
 .header__navigation a:last-child{
     margin-right: 0;
 }
+.btn{
+    cursor: pointer;
+    border: none;
+    padding: 18px 29px;
+    width: 348px;
+    height: 67px;
+    background: #C4C4C4;
+    border-radius: 8px;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.title{
+    font-family: Vollkorn;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+/*------------------------FOOTER------------------*/
+
 .footer{
     display: flex;
     align-items: center;
@@ -82,4 +113,122 @@ h1,h2,h3{
 }
 .footer__icons a:last-child{
     margin-right: 0;
+}
+
+/*------------------------MAIN------------------*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.wellcome{
+    margin-bottom: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+.wellcome__text{
+    margin: 90px 48px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.wellcome__title{
+    font-family: Vollkorn;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 89px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.wellcome__subtitle{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 22px 0 176px 0;
+}
+.vakcination{
+    margin-bottom: 88px;
+}
+.vakcination__title{
+    width: 600px;
+    margin-bottom: 12px;
+}
+.vakcination__body{
+    display: flex;
+}
+.vakcination__about{
+    margin-right: 26px;
+}
+.vakcination__about p{
+    font-family: Montserrat Alternates;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000000;
+}
+.vakcination__about p:first-child{
+    margin-top: 40px;
+}
+.vakcination__btn{
+    margin-top: 20px;
+}
+.prices{
+    margin-bottom: 83px;
+}
+.prices__title{
+    margin-bottom: 14px;
+}
+.prices__body{
+    display: flex;
+    justify-content: space-between;
+}
+.prices__prices{
+    margin-right: 50px;
+}
+.prices__list{
+    margin: 40px 0;
+}
+.prices__list li{
+    font-family: Montserrat Alternates;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.prices__list span{
+    font-weight: normal;
+}
+.team{
+    margin-bottom: 44px;
+}
+.team__title{
+    margin-bottom: 80px;
+}
+.team__members{
+    display: flex;
+}
+.team__1, .team__2, .team__3{
+    flex: 0 1 33.33%;
+    margin-right: 259px;
+    font-family: Montserrat Alternates;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.member-img{
+    margin-bottom: 14px;
+}
+.team__3{
+    margin-right: 0;
+}
+.team__name{
+    font-weight: bold;
+    font-size: 14px;
+}
+.team__post{
+    font-weight: normal;
+    font-size: 12px;
 }
