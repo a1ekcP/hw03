@@ -41,6 +41,9 @@ h1,h2,h3,p{
 .header__navigation{
     display: flex;
 }
+.header>a{
+    display: block;
+}
 .header__navigation a{
     display: block;
     margin-right: 75px;
@@ -59,7 +62,6 @@ h1,h2,h3,p{
     cursor: pointer;
     border: none;
     padding: 18px 29px;
-    height: 67px;
     background: #C4C4C4;
     border-radius: 8px;
     font-family: Montserrat Alternates;
@@ -83,10 +85,13 @@ h1,h2,h3,p{
 .footer{
     display: flex;
 }
+.footer__info{
+    display: flex;
+    padding-top: 70px;
+}
 .footer__license{
     width: 247px;
-    margin: 58px 93px 0 121px;
-    align-self: flex-end;
+    margin: 0 93px 0 121px;
 }
 .footer__license p{
     font-family: Montserrat Alternates;
@@ -97,8 +102,8 @@ h1,h2,h3,p{
 .footer__license p:last-child{
     margin-top: 27px;
 }
-.footer__logo{
-    align-self: center;
+.footer__logo a{
+   display: block;
 }
 .footer__contacts h2{
     font-family: Vollkorn;
@@ -121,6 +126,7 @@ h1,h2,h3,p{
 }
 .footer__icons a{
     margin-right: 16px;
+    display: block;
 }
 .footer__icons a:last-child{
     margin-right: 0;
@@ -143,8 +149,6 @@ h1,h2,h3,p{
 }
 .wellcome__text{
     margin: 90px 48px 0 0;
-    display: flex;
-    flex-direction: column;
 }
 .wellcome__title{
     font-family: Vollkorn;
