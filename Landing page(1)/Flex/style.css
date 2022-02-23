@@ -1,5 +1,7 @@
-body{
+*{
     box-sizing: border-box;
+}
+body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -10,13 +12,13 @@ a{
     text-decoration: none;
 }
 .container{
-    max-width: 1600px;
+    max-width: 1452px;
     margin: 0 auto;
 }
 header{
     display: flex;
     align-items: center;
-    padding: 58px 45px 58px 103px;
+    padding: 58px 0 58px 0;
     justify-content: space-between;
 }
 .header__company-name{
@@ -71,11 +73,12 @@ header{
 
 main{
     display: flex;
-    padding: 0 28px 173px 103px;
+    padding: 0 0 173px 0;
 }
+
 .page__join{
     margin: 0 auto;
-    padding-top: 132px;
+    padding-top: 160px;
 }
 .join__title{
     margin-bottom: 8px;
